@@ -13,10 +13,15 @@ class PostImagesController < ApplicationController
   end
 
   def index
-    
+    @post_images = PostImage.all
   end
 
   def show
+    
+  end
+  
+  def destroy
+    
   end
   
   # 投稿データのストロングパラメータ
